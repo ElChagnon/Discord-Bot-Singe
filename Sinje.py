@@ -23,4 +23,4 @@ async def on_message(message):
             x=x+1
         else:
             return
-Client.run("ODc1ODUwOTIzNTAxNTYzOTA0.YRbhvA.M2FHOBt60ICTIZUWCH9qe3RFrBo")
+Client.run("Ton Token")
