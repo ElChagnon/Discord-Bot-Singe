@@ -5,7 +5,7 @@ Client = discord.Client()
 @Client.event   
 async def on_ready():
     print("Connected")
-    streaming=discord.Streaming(name="Sinje qui tourne", url="https://www.sinje.com")
+    streaming=discord.Streaming(name="Sinje qui tourne by Elchagnon", url="https://www.sinje.com")
     await Client.change_presence(activity=streaming)
 @Client.event
 async def on_message(message):
